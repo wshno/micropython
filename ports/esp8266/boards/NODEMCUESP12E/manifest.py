@@ -20,3 +20,5 @@ require("umqtt.robust")
 
 # wsh/prometheus addons:
 include('$(MPY_DIR)/../prometheus.micropython.manifest.py')
+# optional drivers/modules
+freeze("./modules")
