@@ -1,8 +1,6 @@
 #define MICROPY_HW_BOARD_NAME "LoLin-ESP-12E"
 #define MICROPY_HW_MCU_NAME "xtensa-lx106-32"
 
-#define MICROPY_PY_FUNCTION_ATTRS       (1)
-
 #define MICROPY_PERSISTENT_CODE_LOAD    (1)
 #define MICROPY_EMIT_XTENSA             (1)
 #define MICROPY_EMIT_INLINE_XTENSA      (1)
