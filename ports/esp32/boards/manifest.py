@@ -13,6 +13,3 @@ require("onewire")
 require("umqtt.robust")
 require("umqtt.simple")
 require("upysh")
-
-# wsh/prometheus addons:
-include('$(MPY_DIR)/../prometheus.micropython.manifest.py')
